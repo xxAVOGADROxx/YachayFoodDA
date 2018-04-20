@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.8/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.8/ref/settings/
 """
-
+from django.core.urlresolvers import reverse_lazy
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
@@ -111,7 +111,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CART_SESSION_ID = 'cart'
-from django.core.urlresolvers import reverse_lazy
+
 LOGIN_REDIRECT_URL = reverse_lazy('dashboard')
 LOGIN_URL = reverse_lazy('login')
 LOGOUT_URL = reverse_lazy('logout')
