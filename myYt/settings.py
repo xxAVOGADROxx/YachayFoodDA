@@ -25,7 +25,7 @@ SECRET_KEY = 'sdcwce4e83kzyxd4s2t2ee0nit46okgs%tov28-9p3zfscdrv^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'YachayFood2',
-		'USER': 'seraquive',
-		'PASSWORD':'123456',
+		'USER': 'Hugo',
+		'PASSWORD':'1234',
 		'HOST': 'localhost',
 		'PORT': '',
     }
