@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'products',
     'cart',
     'orders',
@@ -83,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'YachayFood2',
-		'USER': 'seraquive',
-		'PASSWORD':'123456',
+		'USER': 'Hugo',
+		'PASSWORD':'1234',
 		'HOST': 'localhost',
 		'PORT': '',
     }
